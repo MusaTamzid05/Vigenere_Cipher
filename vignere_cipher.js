@@ -1,17 +1,7 @@
 
 var helper = require("./helper");
-function isUpper(char_){
-    
-    var  LETTERS= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var index = LETTERS.indexOf(char_);
 
-    if(index == -1)
-        return false;
-    else
-        return true;
 
-    
-}
 function Chiper(key){
 
     this.key = key.toUpperCase();
